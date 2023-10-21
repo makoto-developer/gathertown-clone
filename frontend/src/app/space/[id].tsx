@@ -1,9 +1,16 @@
-import {useRouter} from "next/router";
+'use client'
 
-export default function Space() {
-    const router = useRouter()
-    const {id} = router.query
+import { useSearchParams } from 'next/navigation'
+
+export const Space = () => {
+    const searchParams = useSearchParams();
+
+    const id = searchParams.get('id');
+
     return (
-        <h1>space id: {id}</h1>
-    )
-}
+        <div>
+            <h1>Product Details</h1>
+            <p>ID: {id}</p>
+        </div>
+    );
+};
