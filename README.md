@@ -1,19 +1,41 @@
 # gather town clone
 
-頑張って作ってみる(怒られない程度でUI)を真似ます。
+phaserでgather townのクローンが作れそうなのでチャレンジしてみる。
 
-## Fronend
+## Feature
 
-|key|value|
-|:---|:---|
-|Framework|Next.js|
-|Game engine|phaser|
 
-## Backend
+- [ ] アバター作成機能
+- [ ] 画面移動ができる
+- [ ] ログイン
+- [ ] 画面共有
+- [ ] 音声通話
+- [ ] チャット機能
+- [ ] 遊び場を作る
+- [ ] レイアウト編集
+- [ ] アクション
+    - [ ] 挨拶
+    - [ ] 挙手
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
 
-選定中...
 
-## Database
+## Stack
 
-選定中...
+Fronend
+
+- Next.js v14
+- phaser latest
+
+Backend
+
+- Elixir
+
+Database
+
+- 選定中...
+
+
 
