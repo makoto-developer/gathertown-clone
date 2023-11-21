@@ -9,7 +9,7 @@
     "start": "next start",
     "lint-next": "next lint",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "echo prettierでフォーマットする"
   },
   "dependencies": {
     "next": "14.0.3",
