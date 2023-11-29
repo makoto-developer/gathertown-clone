@@ -1,5 +1,6 @@
 // Phaserの設定
-import MainScene from "@/game/main";
+
+import {Game} from "@/game/main";
 
 export const pharseConfig: Phaser.Types.Core.GameConfig = {
     width: window.innerWidth,
@@ -15,7 +16,5 @@ export const pharseConfig: Phaser.Types.Core.GameConfig = {
         fullscreenTarget: 'game'
     },
 
-    // ここで読み込むシーンを取得する
-    // 今回は軽いテストなので、MainSceneのみ
-    scene: [MainScene],
+    scene: [Game],
 };
